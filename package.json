@@ -1,0 +1,19 @@
+{
+    "name": "i5",
+    "homepage": "http://github.com/davidbyrd11/i5.js",
+    "author": {
+      "name": "David Byrd",
+      "url": "http://github.com/davidbyrd11"
+    },
+    "bin": { "i5" : "./i5.js" },
+    "repository": { "type" : "git", "url" : "http://github.com/davidbyrd11/i5.js.git" },
+    "description": "",
+    "keywords": ["nyu", "i5"],
+    "version": "0.0.1",
+    "preferGlobal" : "true",
+    "licenses": [{
+      "type": "MIT",
+      "url": "http://mit-license.org"
+    }],
+    "main": "./i5"
+}
