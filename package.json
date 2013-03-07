@@ -1,19 +1,35 @@
 {
-    "name": "i5",
-    "homepage": "http://github.com/davidbyrd11/i5.js",
-    "author": {
-      "name": "David Byrd",
-      "url": "http://github.com/davidbyrd11"
-    },
-    "bin": { "i5" : "./i5.js" },
-    "repository": { "type" : "git", "url" : "http://github.com/davidbyrd11/i5.js.git" },
-    "description": "",
-    "keywords": ["nyu", "i5"],
-    "version": "0.0.1",
-    "preferGlobal" : "true",
-    "licenses": [{
+  "name": "i5",
+  "homepage": "http://github.com/davidbyrd11/i5.js",
+  "author": {
+    "name": "David Byrd",
+    "url": "http://github.com/davidbyrd11"
+  },
+  "bin": {
+    "i5": "./i5.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/davidbyrd11/i5.js.git"
+  },
+  "description": "A toolbelt for NYU's i5 modeled after the Heroku Toolbelt ## Installation ```bash $ npm install i5 -g ```",
+  "keywords": [
+    "nyu",
+    "i5"
+  ],
+  "version": "0.0.1",
+  "preferGlobal": "true",
+  "licenses": [
+    {
       "type": "MIT",
       "url": "http://mit-license.org"
-    }],
-    "main": "./i5"
+    }
+  ],
+  "main": "./i5",
+  "dependencies": {
+    "prompt": "~0.2.9"
+  },
+  "readme": "# i5 Toolbelt\nA toolbelt for NYU's i5 modeled after the Heroku Toolbelt\n## Installation\n```bash\n$ npm install i5 -g\n```\n\n## Usage\n```bash\n$ i5 login\nEnter your i5 credentials.\nNetID: NYU_NET_ID\nPassword (typing will be hidden):\nAuthentication successful.\n\n$ i5 upload DIRECTORY\nUploading DIRECTORY ...\nUpload successful.\n\n$ i5 run DIRECTORY\nUploading DIRECTORY ...\nUpload successful.\nCompiling DIRECTORY ...\nCompilation successful.\nExecuting DIRECTORY ...\n> Hello World!\nExecution successful.\n```\n",
+  "_id": "i5@0.0.1",
+  "_from": "i5"
 }
